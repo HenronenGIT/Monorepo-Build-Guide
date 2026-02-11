@@ -23,6 +23,7 @@ This is a TypeScript monorepo managed with **pnpm workspaces** and **Turborepo**
 
 ## Monorepo Structure
 
+```
 monorepo/
 ├── apps/
 │ ├── web/ # Next.js frontend
@@ -94,6 +95,7 @@ monorepo/
 ├── docker-compose.yml # Local services (DB, Redis, etc.)
 ├── .gitignore
 └── .env.example
+```
 
 Internal packages are referenced by name (e.g. `@aggregate/shared`, `@aggregate/logger`).
 
